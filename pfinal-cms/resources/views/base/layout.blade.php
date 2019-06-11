@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('vendor/laravel-admin/font-awesome/css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
     <script src="{{asset('js/app.js')}}"></script>
     <script src="{{asset('js/swiper.animate.min.js')}}"></script>
+    <script src="{{asset('js/swiper.min.js')}}"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-column flex-md-row">
@@ -32,7 +34,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item {!! Request::getPathInfo()=='/'?'active':'' !!}">
-                <a class="nav-link" href="{{url('/')}}"><i class="fa fa-home"></i> 首页 <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{url('/')}}"><i class="fa fa-home"></i> 首页 <span
+                            class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item {!! Request::getPathInfo()=='/about_me'?'active':'' !!}">
                 <a class="nav-link" href="{{url('about_me')}}"> <i class="fa fa-user-md"></i> 关于我们</a>
@@ -40,8 +43,10 @@
         </ul>
     </div>
 </nav>
+
 @yield("content")
 <footer class="footer">
 </footer>
+@yield("self-script")
 </body>
 </html>
