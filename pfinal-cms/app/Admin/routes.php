@@ -13,4 +13,9 @@ Route::group([
     // 前台站点管理
     $router->get('reception_system','WebSystemController@index')->name('web.index');
     $router->post('reception_system/config_up','WebSystemController@config_up');
+
+    // 模块管理
+    $router->resource('modules','ModuleController');
+    $router->get('m/{module}/{action?}/{param?}','ModuleManageController@index');
 });
+
