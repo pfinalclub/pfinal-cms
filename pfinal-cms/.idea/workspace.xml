@@ -5,19 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/routes/web.php" line="14" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a531db9-876b-44a0-85c7-6dfca2616f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Modules/News/News.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ModuleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ModuleManageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/WebSystemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/WebSystemController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Modules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/News/Http/Controllers/Admin/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/News/Http/Controllers/Admin/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_11_032432_create_table_modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_11_032432_create_table_modules.php" afterDir="false" />
-    </list>
+    <list default="true" id="2a531db9-876b-44a0-85c7-6dfca2616f9a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,16 +399,15 @@
       <workItem from="1560391170082" duration="65000" />
       <workItem from="1560394439214" duration="4508000" />
       <workItem from="1560401342625" duration="107000" />
-      <workItem from="1560401486255" duration="4243000" />
+      <workItem from="1560401486255" duration="4528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62668000" />
+    <option name="totallyTimeSpent" value="62953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
