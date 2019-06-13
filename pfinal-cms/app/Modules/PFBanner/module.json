@@ -1,0 +1,14 @@
+{
+    "name": "PFBanner",
+    "alias": "pfbanner",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Modules\\PFBanner\\Providers\\PFBannerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

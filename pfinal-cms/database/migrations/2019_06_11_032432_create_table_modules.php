@@ -21,6 +21,7 @@ class CreateTableModules extends Migration
                 $table->string('name')->unique()->comment('模块标识');
                 $table->string('version')->comment('版本号');
                 $table->tinyInteger('local')->comment('本地模块');
+                $table->tinyInteger('is_nav')->default(0)->comment('是否显示导航');
                 $table->tinyInteger('status')->default(0)->comment('是否上线');
                 $table->text('package')->comment('模块配置');
                 $table->timestamps();

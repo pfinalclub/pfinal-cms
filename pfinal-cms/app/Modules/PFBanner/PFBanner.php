@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: 南丞
  * Date: 2019/6/13
- * Time: 12:54
+ * Time: 17:10
  *
  *
  *                      _ooOoo_
@@ -29,36 +29,20 @@
  *
  */
 
-namespace App\Modules;
+namespace App\Modules\PFBanner;
 
 
-use App\Model\Modules;
-
-class Module
+class PFBanner
 {
-    public function registerAuthRoutes()
-    {
-        $this->routes();
-    }
-
     public static function routes()
     {
         $attributes = [
-            'prefix'     => 'module',
-            'namespace'  => '\App\Modules',
+            'prefix'     => 'pfbanner',
             'middleware' => config('admin.route.middleware'),
+            'namespace'=>'PFBanner\Http\Controllers\Admin'
         ];
         app('router')->group($attributes, function ($router) {
-            $router->get('/',function () {
-                return redirect('admin');
-            });
-            $modules = Modules::pluck('name');
-            if($modules) {
-               foreach ($modules as $module) {
-                   $module_name = 'App\Modules\\'.ucfirst($module).'\\'.ucfirst($module);
-                   $module_name::routes();
-               }
-            }
+            $router->get('/','PFBannerController@index');
         });
     }
 }

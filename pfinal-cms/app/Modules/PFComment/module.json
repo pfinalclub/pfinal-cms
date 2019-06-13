@@ -1,0 +1,14 @@
+{
+    "name": "PFComment",
+    "alias": "pfcomment",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Modules\\PFComment\\Providers\\PFCommentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

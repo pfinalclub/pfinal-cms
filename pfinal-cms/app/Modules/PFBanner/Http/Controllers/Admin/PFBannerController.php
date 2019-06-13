@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: 南丞
  * Date: 2019/6/13
- * Time: 12:54
+ * Time: 17:14
  *
  *
  *                      _ooOoo_
@@ -29,36 +29,15 @@
  *
  */
 
-namespace App\Modules;
+namespace App\Modules\PFBanner\Http\Controllers\Admin;
 
 
-use App\Model\Modules;
+use Encore\Admin\Controllers\AdminController;
 
-class Module
+class PFBannerController extends AdminController
 {
-    public function registerAuthRoutes()
+    public function grid()
     {
-        $this->routes();
-    }
 
-    public static function routes()
-    {
-        $attributes = [
-            'prefix'     => 'module',
-            'namespace'  => '\App\Modules',
-            'middleware' => config('admin.route.middleware'),
-        ];
-        app('router')->group($attributes, function ($router) {
-            $router->get('/',function () {
-                return redirect('admin');
-            });
-            $modules = Modules::pluck('name');
-            if($modules) {
-               foreach ($modules as $module) {
-                   $module_name = 'App\Modules\\'.ucfirst($module).'\\'.ucfirst($module);
-                   $module_name::routes();
-               }
-            }
-        });
     }
 }

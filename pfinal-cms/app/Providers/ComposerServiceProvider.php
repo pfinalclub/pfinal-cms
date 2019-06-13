@@ -33,7 +33,7 @@ class ComposerServiceProvider extends ServiceProvider
         });
         // 网站导航模块
         view()->composer('base.layout',function($view) {
-            $modules = Modules::select('title','name','status')->where('status',1)->get();
+            $modules = Modules::select('title','name','status')->where('is_nav',1)->where('status',1)->get();
             $view->with('modules',$modules);
         });
     }
