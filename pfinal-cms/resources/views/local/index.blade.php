@@ -13,6 +13,7 @@
             height: calc(100%);
         }
     </style>
+
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">Slide 1</div>
@@ -31,6 +32,14 @@
             //autoHeight: true, //高度随内容变化
             direction: 'vertical', // 垂直切换选项
             loop: true, // 循环模式选项
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
 
             // 如果需要分页器
             pagination: {

@@ -18,7 +18,11 @@
     <script src="{{asset('js/swiper.min.js')}}"></script>
 </head>
 <body>
-@include('base.nav')
+@if($config->template_id==0)
+    @include('local.nav')
+@else
+    @include($config->template_name.'.nav');
+@endif
 @yield("content")
 <footer class="footer">
 </footer>

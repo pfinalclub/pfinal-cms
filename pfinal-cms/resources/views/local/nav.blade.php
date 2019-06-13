@@ -19,7 +19,8 @@
             @if(count($modules))
                 @foreach($modules as $item)
                     <li class="nav-item {!! Request::getPathInfo()== $item->name?'active':'' !!}">
-                        <a class="nav-link" href="{{url($item->name)}}"> <i class="fa fa-user-md"></i> {{ $item->title }}
+                        <a class="nav-link" href="{{url($item->name)}}"> <i
+                                    class="fa fa-user-md"></i> {{ $item->title }}
                         </a>
                     </li>
                 @endforeach

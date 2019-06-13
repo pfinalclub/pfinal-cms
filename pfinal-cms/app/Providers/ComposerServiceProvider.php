@@ -29,6 +29,7 @@ class ComposerServiceProvider extends ServiceProvider
         // 网站信息配置
         view()->composer('base.layout',function ($view) {
             $config = SystemConfig::first();
+            $config->template_name = 'demo';
             $view->with('config',$config);
         });
         // 网站导航模块
