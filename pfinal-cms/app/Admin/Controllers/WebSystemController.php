@@ -47,8 +47,9 @@ class WebSystemController extends AdminController
 
     protected $title = '前台系统管理';
 
-    public function index(Content $content)
+    public function index(Content $content = null)
     {
+        $content = $content??new Content();
         return $content
             ->title($this->title)
             ->description('前台系统管理信息管理')
@@ -68,7 +69,6 @@ class WebSystemController extends AdminController
                             $form->saved(
                                 function () {
                                     //alert(123);
-
                                 }
                             );
                             $column->append((new Box('前端系统信息', $form))->style('success'));
@@ -96,9 +96,11 @@ class WebSystemController extends AdminController
         if ($res) {
 
             admin_toastr('更行成功');
+
             return redirect(url('admin/reception_system'));
         } else {
             admin_error('更新失败');
+
             return redirect(url('admin/reception_system'));
         }
 

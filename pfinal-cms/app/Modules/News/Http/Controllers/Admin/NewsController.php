@@ -39,7 +39,7 @@ use Encore\Admin\Grid;
 
 class NewsController extends AdminController
 {
-    protected $title = 'Title';
+    protected $title = '公司动态管理';
     protected $description = [
 //        'index'  => 'Index',
 //        'show'   => 'Show',
@@ -59,6 +59,4 @@ class NewsController extends AdminController
         $grid->column('updated_at', trans('admin.updated_at'));
         return $grid;
     }
-
-
 }

@@ -1,6 +1,8 @@
 <?php
 
+use App\Modules\Module;
 use Illuminate\Routing\Router;
+
 
 Admin::routes();
 
@@ -16,6 +18,8 @@ Route::group([
 
     // 模块管理
     $router->resource('modules','ModuleController');
-    $router->get('m/{module}/{action?}/{param?}','ModuleManageController@index');
+    //模块路由处理
+    Module::routes();
+
 });
 

@@ -8,4 +8,5 @@ class Modules extends Model
 {
     protected $table = "modules";
     protected $guarded = [];
+
 }

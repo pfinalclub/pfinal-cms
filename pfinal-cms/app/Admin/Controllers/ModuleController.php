@@ -51,7 +51,7 @@ class ModuleController extends AdminController
         $form->text('title', '模块名称')->rules('required');
         $form->text('name', '模块标识')
             ->creationRules(['required', "unique:modules"])
-            ->updateRules(['required', "unique:modules,username,{{id}}"]);
+            ->updateRules(['required', "unique:modules,name,{{id}}"]);
         $form->text('version', '版本号')->rules('required');
         $form->textarea('package', '模块配置')->rules('required');
         $form->hidden('local')->value(1);
@@ -61,15 +61,22 @@ class ModuleController extends AdminController
 
     protected function grid()
     {
+        $status = [
+            'on'  => ['value' => 1, 'text' => '上线', 'color' => 'success'],
+            'off' => ['value' => 0, 'text' => '下线', 'color' => 'danger'],
+        ];
         $grid = new Grid(new Modules());
 
         $grid->column('id', 'ID')->sortable();
         $grid->column('title', '模块名');
         $grid->column('name', '模块标识');
         $grid->column('version', '版本号')->label();
-        $grid->column('status', '状态')->switch([1=>'s',0=>'e']);
+        $grid->column('status', '状态')->switch($status);
         $grid->column('created_at', trans('admin.created_at'));
         $grid->column('updated_at', trans('admin.updated_at'));
+        $grid->actions(function (Grid\Displayers\Actions $actions) {
+            $actions->disableView();
+        });
         return $grid;
     }
 }

@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: 南丞
- * Date: 2019/6/12
- * Time: 16:49
+ * Date: 2019/6/13
+ * Time: 13:30
  *
  *
  *                      _ooOoo_
@@ -29,29 +29,20 @@
  *
  */
 
-namespace App\Admin\Controllers;
+namespace App\Modules\News;
 
 
-use App\Http\Controllers\Controller;
-use App\Model\Modules;
-use Illuminate\Http\Request;
-
-
-class ModuleManageController extends Controller
+class News
 {
-    protected $modules;
-    public function __construct(Modules $modules)
+    public static function routes()
     {
-        $this->modules = $modules;
-    }
-
-    public function index(Request $request)
-    {
-        $controller = $request->route('module');
-        $namespace = 'App\Modules\News\Http\Controllers\Admin\\';
-        $className = $namespace . ucfirst($controller . "Controller");
-        $action = $request->route('action')??'index';
-        $tempObj = new $className();
-        return call_user_func(array($tempObj, $action));
+        $attributes = [
+            'prefix'     => 'news',
+            'middleware' => config('admin.route.middleware'),
+            'namespace'=>'News\Http\Controllers\Admin'
+        ];
+        app('router')->group($attributes, function ($router) {
+            $router->get('/','NewsController@index');
+        });
     }
 }

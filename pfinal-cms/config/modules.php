@@ -59,7 +59,7 @@ return [
     'paths' => [
         /*
         |--------------------------------------------------------------------------
-        | Modules path
+        | Module path
         |--------------------------------------------------------------------------
         |
         | This path used for save the generated module. This path also will be added
@@ -70,7 +70,7 @@ return [
         'modules' => base_path('App\Modules'),
         /*
         |--------------------------------------------------------------------------
-        | Modules assets path
+        | Module assets path
         |--------------------------------------------------------------------------
         |
         | Here you may update the modules assets path.
