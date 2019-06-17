@@ -2,78 +2,30 @@
 
 namespace App\Modules\PFBanner\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use stdClass;
 
 class PFBannerController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     * @return Response
-     */
-    public function index()
+    protected static $stdClass = null;
+
+    public static function driver()
     {
-        return view('pfbanner::index');
+        self::$stdClass = new StdClass();
     }
 
-    /**
-     * Show the form for creating a new resource.
-     * @return Response
-     */
-    public function create()
+    public static function banner_list()
     {
-        return view('pfbanner::create');
+        self::driver();
+        // 获取一下 当前的banners
+        self::get_banners();
+
+        return self::$stdClass;
     }
 
-    /**
-     * Store a newly created resource in storage.
-     * @param Request $request
-     * @return Response
-     */
-    public function store(Request $request)
+    protected static function get_banners()
     {
-        //
+        self::$stdClass->index_top_banner = 'hi Banner';
     }
 
-    /**
-     * Show the specified resource.
-     * @param int $id
-     * @return Response
-     */
-    public function show($id)
-    {
-        return view('pfbanner::show');
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     * @param int $id
-     * @return Response
-     */
-    public function edit($id)
-    {
-        return view('pfbanner::edit');
-    }
-
-    /**
-     * Update the specified resource in storage.
-     * @param Request $request
-     * @param int $id
-     * @return Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     * @param int $id
-     * @return Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

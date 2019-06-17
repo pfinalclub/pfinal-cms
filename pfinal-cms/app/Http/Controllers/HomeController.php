@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Model\SystemConfig;
+use App\Modules\PFBanner\Http\Controllers\PFBannerController;
+use pf\arr\PFarr;
 
 class HomeController extends CommonController
 {
@@ -13,7 +15,13 @@ class HomeController extends CommonController
 
     public function index()
     {
-        return view($this->temple.'.index');
+        $modules = $this->modules;
+        //判断是否有配置广告
+        if (in_array('PFBanner', PFarr::pf_array_col($this->modules->toArray(), 'name'))) {
+            $index_banners = PFBannerController::banner_list();
+        }
+
+        return view($this->temple.'.index', compact('modules','index_banners'));
     }
 
     public function about_me()

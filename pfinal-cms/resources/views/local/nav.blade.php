@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-column flex-md-row">
     <a class="navbar-brand" href="{{url('/')}}">
-        @if($config->logo)
+        @if($config&&$config->logo)
             <img src="{{asset('storage/'.$config->logo)}}" width="30" height="30" alt="">
         @else
-            {{ucfirst($config->title)}}
+            {{$config?ucfirst($config->title):'PFinal'}}
         @endif
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -18,11 +18,13 @@
             </li>
             @if(count($modules))
                 @foreach($modules as $item)
-                    <li class="nav-item {!! Request::getPathInfo()== $item->name?'active':'' !!}">
-                        <a class="nav-link" href="{{url($item->name)}}"> <i
-                                    class="fa fa-user-md"></i> {{ $item->title }}
-                        </a>
-                    </li>
+                    @if($item->is_nav)
+                        <li class="nav-item {!! Request::getPathInfo()== $item->name?'active':'' !!}">
+                            <a class="nav-link" href="{{url($item->name)}}"> <i
+                                        class="fa fa-user-md"></i> {{ $item->title }}
+                            </a>
+                        </li>
+                    @endif
                 @endforeach
             @endif
             <li class="nav-item {!! Request::getPathInfo()=='/about_me'?'active':'' !!}">

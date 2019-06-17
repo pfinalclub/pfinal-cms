@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b88e4bbcd7e7f13674cc50ae0b140f23",
+    "content-hash": "c171258da907cf99e12f9a5477a1239c",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1240,6 +1240,57 @@
                 "psr-3"
             ],
             "time": "2018-11-05T09:00:11+00:00"
+        },
+        {
+            "name": "nancheng/pfinal-array",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfinalclub/pfinal-array.git",
+                "reference": "af8fd21da435a5e3763ba718c185288b69b515ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-array/zipball/af8fd21da435a5e3763ba718c185288b69b515ce",
+                "reference": "af8fd21da435a5e3763ba718c185288b69b515ce",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\arr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "南丞",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "http://friday-go.cc/"
+                }
+            ],
+            "description": "This is a PHP array manipulation middleware",
+            "homepage": "https://github.com/Neroxiezi/pfinal-array",
+            "keywords": [
+                "Q哥",
+                "array",
+                "pfinal",
+                "php-array",
+                "南丞"
+            ],
+            "time": "2018-09-08T07:04:46+00:00"
         },
         {
             "name": "nesbot/carbon",
