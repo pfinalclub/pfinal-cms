@@ -13,11 +13,15 @@ class CreateTableBannerPostion extends Migration
      */
     public function up()
     {
-        Schema::create('', function (Blueprint $table) {
-            $table->bigIncrements('id');
-
-            $table->timestamps();
-        });
+        Schema::create(
+            'banner_position',
+            function (Blueprint $table) {
+                $table->bigIncrements('id');
+                $table->string('name')->comment('位置名称');
+                $table->string('position_sn')->comment('位置标识');
+                $table->timestamps();
+            }
+        );
     }
 
     /**
@@ -27,6 +31,6 @@ class CreateTableBannerPostion extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('');
+        Schema::dropIfExists('banner_position');
     }
 }

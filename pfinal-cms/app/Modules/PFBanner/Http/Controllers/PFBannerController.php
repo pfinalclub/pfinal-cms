@@ -19,7 +19,7 @@ class PFBannerController extends Controller
         self::driver();
         // 获取一下 当前的banners
         self::get_banners();
-
+        
         return self::$stdClass;
     }
 
