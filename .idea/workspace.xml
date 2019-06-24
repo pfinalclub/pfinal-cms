@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="" />
+    <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/pfinal-cms/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pfinal-cms/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -77,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="70" column="79" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="79" />
+            <state relative-caret-position="754">
+              <caret line="205" column="9" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -133,10 +135,10 @@
       <list>
         <option value="$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php" />
         <option value="$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" />
         <option value="$PROJECT_DIR$/pfinal-cms/routes/web.php" />
         <option value="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php" />
         <option value="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -281,13 +283,6 @@
               <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
               <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,14 +299,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -360,12 +347,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561344959984</updated>
-      <workItem from="1561344961210" duration="6829000" />
+      <workItem from="1561344961210" duration="7455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6829000" />
+    <option name="totallyTimeSpent" value="7455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,25 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="70" column="79" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5851#5857#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pfinal-cms/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -464,6 +432,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="205" column="9" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5851#5857#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
