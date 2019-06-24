@@ -8,6 +8,7 @@
     <title>{{$config?$config->title:'PFinal'}}</title>
     <meta name="keywords" content="{{$config?$config->keywords:''}}">
     <meta name="description" content="{{$config?$config->description:''}}">
+    <meta name="baidu-site-verification" content="Rj8Dn3976y" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="favicon.png" type="image/png">
     <link href="{{asset('pc-static/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
