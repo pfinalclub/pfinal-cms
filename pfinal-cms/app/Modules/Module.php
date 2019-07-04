@@ -28,19 +28,14 @@
  *           佛祖保佑       永无BUG     永不修改
  *
  */
-
 namespace App\Modules;
-
-
 use App\Model\Modules;
-
 class Module
 {
     public function registerAuthRoutes()
     {
         $this->routes();
     }
-
     public static function routes()
     {
         $attributes = [
@@ -54,10 +49,10 @@ class Module
             });
             $modules = Modules::pluck('name');
             if($modules) {
-               foreach ($modules as $module) {
-                   $module_name = 'App\Modules\\'.ucfirst($module).'\\'.ucfirst($module);
-                   $module_name::routes();
-               }
+                foreach ($modules as $module) {
+                    $module_name = 'App\Modules\\'.ucfirst($module).'\\'.ucfirst($module);
+                    $module_name::routes();
+                }
             }
         });
     }

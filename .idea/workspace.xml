@@ -2,7 +2,285 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pfinal-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pfinal-cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Admin/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Model/PFBPosition.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Model/PFBanner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Config/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/Seeders/NewsDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Controllers/Admin/NewsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Controllers/NewsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/News.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Providers/NewsServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Config/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Migrations/2019_06_17_051034_create_table_banner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Migrations/2019_06_17_055004_create_table_banner_postion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Seeders/PFBannerDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Controllers/Admin/PFBannerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Controllers/PFBannerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/PFBanner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Providers/PFBannerServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Config/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/Seeders/PFCommentDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Controllers/PFCommentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Providers/PFCommentServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/ComposerServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/modules.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2016_01_04_173148_create_admin_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/migrations/2016_01_04_173148_create_admin_tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2019_06_10_080312_create_table_system_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2019_06_10_081908_create_table_template_pack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2019_06_11_032432_create_table_modules.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/encore.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/swiper.animate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/about-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/about1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner-mobile.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner-mobile1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/cb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/gat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/gat1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/lap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/loading-round.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/pattern-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/pattern-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/portfolio_pic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/portfolio_pic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/portfolio_pic8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/team01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/twitter_bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/yuheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/yuheng1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/zz_yh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/zz_yh1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/Descr.WD3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_loading_402x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_sprite_402x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/html5element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery-scrolltofixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.isotope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.lazyload.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/respond-1.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pfinal_cms.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ru/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/ru/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/uk/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/uk/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/demo/nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/system_developer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/webpack.mix.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pfinal-cms/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,84 +289,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/pfinal-cms/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="364">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="206" column="66" selection-start-line="206" selection-start-column="66" selection-end-line="206" selection-end-column="66" />
-              <folding>
-                <element signature="e#6960#7020#0#HTML" expanded="true" />
-                <element signature="e#7109#7239#0#HTML" expanded="true" />
-                <element signature="e#7599#7621#0#HTML" expanded="true" />
-                <element signature="e#7981#8113#0#HTML" expanded="true" />
-                <element signature="e#8585#8607#0#HTML" expanded="true" />
-                <element signature="e#8826#8958#0#HTML" expanded="true" />
-                <element signature="e#9670#9803#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/demo/nav.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/config/admin.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pfinal-cms/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="104">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="78">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+            <state relative-caret-position="312">
+              <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
               <folding>
-                <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5851#5857#0#HTML" expanded="true" />
+                <element signature="e#6#889#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/WebSystemController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin/resources/views/dashboard/system_developer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfinal-cms/config/filesystems.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -97,7 +378,7 @@
         <entry file="file://$PROJECT_DIR$/pfinal-cms/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -115,15 +396,16 @@
       <command text="artisan view:clear" />
       <command text="artisan cache:clear " />
       <command text="artisan view:clear" />
+      <command text="artisan admin:publish " />
+      <command text="artisan admin:install" />
+      <command text="artisan view:clear" />
+      <command text="artisan storage:link" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
@@ -139,6 +421,13 @@
         <option value="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php" />
         <option value="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" />
+        <option value="$PROJECT_DIR$/pfinal-cms/storage/logs/laravel-2019-07-04.log" />
+        <option value="$PROJECT_DIR$/pfinal-cms/composer.json" />
+        <option value="$PROJECT_DIR$/pfinal-cms/config/app.php" />
+        <option value="$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin/resources/views/dashboard/system_developer.blade.php" />
+        <option value="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/pfinal-cms/.env" />
+        <option value="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" />
       </list>
     </option>
   </component>
@@ -147,108 +436,94 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nancheng/pfinal-array" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/composer" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/laravel/framework" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-php72" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/tijsverkoyen/css-to-inline-styles" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/vlucas/phpdotenv" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/beyondcode/laravel-dump-server" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/composer" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/dnoegel/php-xdg-base-dir" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/dragonmantank/cron-expression" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/encore/laravel-admin" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/erusev/parsedown" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psr/log" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/jakub-onderka/php-console-color" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/jakub-onderka/php-console-highlighter" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/laravel/tinker" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/league/flysystem" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/mockery/mockery" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nesbot/carbon" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nunomaduro/collision" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nwidart/laravel-modules" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpoption/phpoption" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/psy/psysh" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/ramsey/uuid" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/pfinal-cms/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin" />
+      <path value="$PROJECT_DIR$/pfinal-cms/vendor/nwidart/laravel-modules" />
     </include_path>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/pfinal-cms.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-        <option value="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" />
-        <option value="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_19_6_24_12_18_artisan.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
@@ -279,33 +554,6 @@
               <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -316,14 +564,20 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/pfinal-cms/storage/logs/laravel-2019-07-04.log&#10;D:/phpStudy/WWW/pfinal-cms/pfinal-cms/.env" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pfinal-cms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\pfinal-cms\pfinal-cms" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -348,20 +602,21 @@
       <option name="presentableId" value="Default" />
       <updated>1561344959984</updated>
       <workItem from="1561344961210" duration="7803000" />
+      <workItem from="1562229412352" duration="65000" />
+      <workItem from="1562230407015" duration="3057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7803000" />
+    <option name="totallyTimeSpent" value="10925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1609808" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -378,12 +633,31 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Command Line Tools Console" order="4" visible="true" weight="0.32889125" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5356">
+          <caret line="206" column="66" selection-start-line="206" selection-start-column="66" selection-end-line="206" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/demo/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -391,54 +665,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="206" column="66" selection-start-line="206" selection-start-column="66" selection-end-line="206" selection-end-column="66" />
-          <folding>
-            <element signature="e#6960#7020#0#HTML" expanded="true" />
-            <element signature="e#7109#7239#0#HTML" expanded="true" />
-            <element signature="e#7599#7621#0#HTML" expanded="true" />
-            <element signature="e#7981#8113#0#HTML" expanded="true" />
-            <element signature="e#8585#8607#0#HTML" expanded="true" />
-            <element signature="e#8826#8958#0#HTML" expanded="true" />
-            <element signature="e#9670#9803#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="910">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="1274">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -450,6 +687,85 @@
             <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5851#5857#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Providers/ComposerServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/storage/logs/laravel-2019-07-04.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/config/admin.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/WebSystemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin/resources/views/dashboard/system_developer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+          <folding>
+            <element signature="e#6#889#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

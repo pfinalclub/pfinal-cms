@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'PFinal-cms',
+    'name' => 'PF-admin',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>PFinal</b> admin',
+    'logo' => '<b>PF</b> admin',
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'PFinal',
+    'title' => 'Admin',
 
     /*
     |--------------------------------------------------------------------------
@@ -111,6 +111,8 @@ return [
     'auth' => [
 
         'controller' => App\Admin\Controllers\AuthController::class,
+
+        'guard' => 'admin',
 
         'guards' => [
             'admin' => [
