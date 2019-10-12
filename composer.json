@@ -1,11 +1,17 @@
 {
-    "name": "pfinal/pfinal-cms",
-    "description": "PFinal-cms",
-    "authors": [
-        {
-            "name": "pfinal",
-            "email": "lampxiezi@163.com"
-        }
-    ],
-    "require": {}
+  "name": "pfinal/pfinal-cms",
+  "description": "PFinal-cms",
+  "authors": [
+    {
+      "name": "pfinal",
+      "email": "lampxiezi@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "nancheng/pfinal-framework": "dev-master",
+    "nancheng/pfinal-view": "dev-master",
+    "nancheng/pfinal-route": "dev-master",
+    "nancheng/pfinal-response": "dev-master"
+  }
 }

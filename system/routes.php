@@ -4,7 +4,7 @@
 	 * | Created By pfinal-cms                 |
 	 * | User: pfinal <lampxiezi@163.com>     |
 	 * | Date: 2019/10/12                      |
-	 * | Time: 下午4:45                        |
+	 * | Time: 下午5:21                        |
 	 * ----------------------------------------
 	 * |    _____  ______ _             _     |
 	 * |   |  __ \|  ____(_)           | |    |
@@ -14,6 +14,9 @@
 	 * |   |_|    |_|    |_|_| |_|\__,_|_|    |
 	 * ----------------------------------------
 	 */
-	define('RUNTIME', microtime(true));
-	define('ROOT_PATH', __DIR__);
-	require __DIR__.'/system/pf.php';
+	
+	use pf\route\Route;
+	
+	Route::get('/',function (){
+	
+	});
