@@ -2,287 +2,409 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pfinal-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pfinal-cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Model/PFBPosition.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Model/PFBanner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/Seeders/NewsDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Controllers/Admin/NewsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Controllers/NewsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/News.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Providers/NewsServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/News/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Migrations/2019_06_17_051034_create_table_banner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Migrations/2019_06_17_055004_create_table_banner_postion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/Seeders/PFBannerDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Controllers/Admin/PFBannerController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Controllers/PFBannerController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/PFBanner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Providers/PFBannerServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFBanner/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/Seeders/PFCommentDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Controllers/PFCommentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Providers/PFCommentServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/PFComment/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/ComposerServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/hashing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/modules.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2016_01_04_173148_create_admin_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/migrations/2016_01_04_173148_create_admin_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2019_06_10_080312_create_table_system_config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2019_06_10_081908_create_table_template_pack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2019_06_11_032432_create_table_modules.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/encore.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/swiper.animate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/animation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/about-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/about1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner-mobile.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner-mobile1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/banner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/cb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/client_logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/gat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/gat1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/lap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/loading-round.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/pattern-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/pattern-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/portfolio_pic4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/portfolio_pic6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/portfolio_pic8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/slide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/team01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/twitter_bird.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/yuheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/yuheng1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/zz_yh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/img/zz_yh1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_loading_402x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/fancybox_sprite_402x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/fancybox/jquery.fancybox.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/html5element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery-scrolltofixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.isotope.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.lazyload.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/jquery.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/respond-1.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pc-static/js/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/pfinal_cms.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ru/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/ru/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/uk/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/lang/uk/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/demo/nav.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/channels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/system_developer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfinal-cms/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/pfinal-cms/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/AuthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/ExampleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/ModuleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/WebSystemController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Admin/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Model/Modules.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Model/SystemConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/migrations/2016_01_04_173148_create_admin_tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/_all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-black-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-black.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-blue-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-green-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-purple-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-red-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-yellow-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/img/boxed-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/img/boxed-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/img/default-50x50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/dist/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/bootstrap-slider/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/jquery.inputmask.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/phone-be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/phone-codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/img/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/img/sprite-skin-nice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.skinNice.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-duallistbox/dist/bootstrap-duallistbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-duallistbox/dist/jquery.bootstrap-duallistbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/css/fileinput.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/img/loading-sm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/fileinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/canvas-to-blob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/piexif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/piexif.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/purify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/purify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/sortable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap-switch/dist/js/bootstrap-switch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap3-editable/css/bootstrap-editable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap3-editable/img/clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap3-editable/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/bootstrap3-editable/js/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/fontawesome-iconpicker/dist/js/fontawesome-iconpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/jquery-pjax/jquery.pjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/laravel-admin/laravel-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/moment/min/moment-with-locales.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/nestable/jquery.nestable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/nestable/nestable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/nprogress/nprogress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/nprogress/nprogress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/number-input/bootstrap-number-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/sweetalert2/dist/sweetalert2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/sweetalert2/dist/sweetalert2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/toastr/build/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/public/vendor/laravel-admin/toastr/build/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ar/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/az/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/es/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/fa/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/fr/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/he/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/id/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ja/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ko/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ms/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/nl/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/pl/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/pt-BR/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/pt/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/ru/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/tr/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/uk/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/zh-CN/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/lang/zh-TW/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfinal-cms/yarn.lock" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/pfinal-cms/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,99 +413,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/pfinal-cms/composer.json</pharConfigPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/config/admin.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-              <folding>
-                <element signature="e#6#889#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/WebSystemController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin/resources/views/dashboard/system_developer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/config/filesystems.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfinal-cms/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -404,32 +436,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/routes/web.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/storage/logs/laravel-2019-07-04.log" />
-        <option value="$PROJECT_DIR$/pfinal-cms/composer.json" />
-        <option value="$PROJECT_DIR$/pfinal-cms/config/app.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin/resources/views/dashboard/system_developer.blade.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/config/filesystems.php" />
-        <option value="$PROJECT_DIR$/pfinal-cms/.env" />
-        <option value="$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php" />
-      </list>
-    </option>
   </component>
   <component name="PhpServers">
     <servers />
@@ -525,48 +531,14 @@
       <path value="$PROJECT_DIR$/pfinal-cms/vendor/nwidart/laravel-modules" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pfinal-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="pfinal-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1S62jln38RvSPFR5oCjR4HqBqx7" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/pfinal-cms/storage/logs/laravel-2019-07-04.log&#10;D:/phpStudy/WWW/pfinal-cms/pfinal-cms/.env" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pfinal-cms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -604,37 +576,9 @@
       <workItem from="1561344961210" duration="7803000" />
       <workItem from="1562229412352" duration="65000" />
       <workItem from="1562230407015" duration="3057000" />
+      <workItem from="1570869862723" duration="233000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10925000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1641791" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Command Line Tools Console" order="4" visible="true" weight="0.32889125" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -643,132 +587,15 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/local/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5356">
-          <caret line="206" column="66" selection-start-line="206" selection-start-column="66" selection-end-line="206" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/demo/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Http/Controllers/CommonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/resources/views/base/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5851#5857#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Providers/ComposerServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/storage/logs/laravel-2019-07-04.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/config/admin.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Admin/Controllers/WebSystemController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/vendor/pfinalclub/pfinal_admin/resources/views/dashboard/system_developer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfinal-cms/app/Modules/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#889#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

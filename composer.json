@@ -1,0 +1,11 @@
+{
+    "name": "pfinal/pfinal-cms",
+    "description": "PFinal-cms",
+    "authors": [
+        {
+            "name": "pfinal",
+            "email": "lampxiezi@163.com"
+        }
+    ],
+    "require": {}
+}
