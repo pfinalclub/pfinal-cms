@@ -12,6 +12,18 @@
     "nancheng/pfinal-framework": "dev-master",
     "nancheng/pfinal-view": "dev-master",
     "nancheng/pfinal-route": "dev-master",
-    "nancheng/pfinal-response": "dev-master"
+    "nancheng/pfinal-response": "dev-master",
+    "nancheng/pfinal-middleware": "dev-master",
+    "nancheng/pfinal-container": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "system/helper.php"
+    ],
+    "psr-4": {
+      "app\\": "app",
+      "system\\": "system",
+      "module\\": "module"
+    }
   }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba5c286698b47d1a4479a9a94cdce079",
+    "content-hash": "12bb2e741e88a5bc014afd5f3124aedb",
     "packages": [
         {
             "name": "nancheng/pfinal-array",
@@ -128,12 +128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfinalclub/pfinal-config.git",
-                "reference": "9131fd718253cca7c7ec6db19f6cd3c12e72b49c"
+                "reference": "1ff070a98f394553754e28449ab25c6fa7ebc6db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfinalclub/pfinal-config/zipball/9131fd718253cca7c7ec6db19f6cd3c12e72b49c",
-                "reference": "9131fd718253cca7c7ec6db19f6cd3c12e72b49c",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-config/zipball/1ff070a98f394553754e28449ab25c6fa7ebc6db",
+                "reference": "1ff070a98f394553754e28449ab25c6fa7ebc6db",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -177,7 +177,7 @@
                 "php-config",
                 "南丞"
             ],
-            "time": "2019-10-08T06:05:41+00:00"
+            "time": "2019-10-14T04:24:35+00:00"
         },
         {
             "name": "nancheng/pfinal-container",
@@ -471,6 +471,66 @@
             "time": "2019-10-12T08:46:05+00:00"
         },
         {
+            "name": "nancheng/pfinal-middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfinalclub/pfinal-middleware.git",
+                "reference": "63ebf5139580612b61513a75b6f12b9869dd6013"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-middleware/zipball/63ebf5139580612b61513a75b6f12b9869dd6013",
+                "reference": "63ebf5139580612b61513a75b6f12b9869dd6013",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "nancheng/pfinal-config": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\middleware\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "南丞",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "https://friday-go.cc"
+                }
+            ],
+            "description": "pfinal中间件组件",
+            "homepage": "https://github.com/pfinalclub/pfinal-middleware",
+            "keywords": [
+                "PFinalClub",
+                "Q哥",
+                "middleware",
+                "pfinal",
+                "pfinal-middleware",
+                "pfinal社区",
+                "php-middleware",
+                "南丞"
+            ],
+            "time": "2019-03-08T04:34:11+00:00"
+        },
+        {
             "name": "nancheng/pfinal-request",
             "version": "dev-master",
             "source": {
@@ -591,12 +651,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfinalclub/pfinal-route.git",
-                "reference": "297a401a27182507b6202c8bc17956fe40a628a1"
+                "reference": "87052e09ab731ae5537152e50cc4d45bcefa53c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfinalclub/pfinal-route/zipball/297a401a27182507b6202c8bc17956fe40a628a1",
-                "reference": "297a401a27182507b6202c8bc17956fe40a628a1",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-route/zipball/87052e09ab731ae5537152e50cc4d45bcefa53c1",
+                "reference": "87052e09ab731ae5537152e50cc4d45bcefa53c1",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -609,8 +669,7 @@
                 "nancheng/pfinal-cache": "dev-master",
                 "nancheng/pfinal-config": "dev-master",
                 "nancheng/pfinal-container": "dev-master",
-                "nancheng/pfinal-request": "dev-master",
-                "php": ">=5.4.0"
+                "nancheng/pfinal-request": "dev-master"
             },
             "require-dev": {
                 "phpunit/phpunit": "6.2"
@@ -647,7 +706,7 @@
                 "route",
                 "南丞"
             ],
-            "time": "2019-03-06T07:12:12+00:00"
+            "time": "2019-10-12T09:32:52+00:00"
         },
         {
             "name": "nancheng/pfinal-session",
@@ -777,7 +836,9 @@
         "nancheng/pfinal-framework": 20,
         "nancheng/pfinal-view": 20,
         "nancheng/pfinal-route": 20,
-        "nancheng/pfinal-response": 20
+        "nancheng/pfinal-response": 20,
+        "nancheng/pfinal-middleware": 20,
+        "nancheng/pfinal-container": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

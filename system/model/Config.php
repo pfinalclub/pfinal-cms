@@ -3,8 +3,8 @@
 	 * ----------------------------------------
 	 * | Created By pfinal-cms                 |
 	 * | User: pfinal <lampxiezi@163.com>     |
-	 * | Date: 2019/10/12                      |
-	 * | Time: 下午5:21                        |
+	 * | Date: 2019/10/14                      |
+	 * | Time: 下午1:01                        |
 	 * ----------------------------------------
 	 * |    _____  ______ _             _     |
 	 * |   |  __ \|  ____(_)           | |    |
@@ -15,11 +15,10 @@
 	 * ----------------------------------------
 	 */
 	
-	use pf\route\Route;
+	namespace system\model;
 	
-	Route::get(
-		'/',
-		function () {
-			return '<h1>Hello</h1>';
-		}
-	);
+	
+	class Config extends Common
+	{
+	
+	}

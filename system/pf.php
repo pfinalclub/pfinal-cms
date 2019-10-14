@@ -14,6 +14,7 @@
 	 * |   |_|    |_|    |_|_| |_|\__,_|_|    |
 	 * ----------------------------------------
 	 */
+	
 	define('RUN_MODE', 'HTTP');
 	require __DIR__.'/autoload.php';
 	\pf\framework\App::bootstrap();

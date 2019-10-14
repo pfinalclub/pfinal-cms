@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/config/service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/pf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/config/http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/config/middleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/middleware/Boot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/model/Common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/model/Config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/config/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/pf.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/pf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/routes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +156,9 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor/nancheng/pfinal-framework/src/build" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\phpStudy\WWW\pfinal-cms\pfinal-cms" />
     </key>
@@ -181,6 +189,8 @@
       <workItem from="1562229412352" duration="65000" />
       <workItem from="1562230407015" duration="3057000" />
       <workItem from="1570869862723" duration="4632000" />
+      <workItem from="1571020492930" duration="3981000" />
+      <workItem from="1571027180227" duration="2206000" />
     </task>
     <servers />
   </component>
@@ -196,7 +206,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
