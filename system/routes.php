@@ -20,6 +20,7 @@
 	Route::get(
 		'/',
 		function () {
-			return '<h1>Hello</h1>';
+			return view('view/welcome');
 		}
 	);
+	Route::get('home', 'app\home\controller\Index@index');

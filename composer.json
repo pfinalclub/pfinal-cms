@@ -14,7 +14,8 @@
     "nancheng/pfinal-route": "dev-master",
     "nancheng/pfinal-response": "dev-master",
     "nancheng/pfinal-middleware": "dev-master",
-    "nancheng/pfinal-container": "dev-master"
+    "nancheng/pfinal-container": "dev-master",
+    "nancheng/pfinal-model": "dev-master"
   },
   "autoload": {
     "files": [

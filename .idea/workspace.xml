@@ -2,17 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/config/http.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/config/middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/middleware/Boot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/model/Common.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/model/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/home/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_19_6_24_12_18_artisan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pfinal-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pfinal-cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.user.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf" beforeDir="false" afterPath="$PROJECT_DIR$/pf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/config/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/config/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/middleware.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/config/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/middleware/Boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/middleware/Boot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/model/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/model/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/ModelBase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/pf.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/pf.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/routes.php" afterDir="false" />
     </list>
@@ -153,14 +173,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor/nancheng/pfinal-framework/src/build" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\phpStudy\WWW\pfinal-cms\pfinal-cms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/home/controller" />
+      <recent name="$PROJECT_DIR$/vendor/nancheng/pfinal-route/src" />
+      <recent name="$PROJECT_DIR$/vendor/nancheng/pfinal-framework/src/build" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,7 +213,9 @@
       <workItem from="1562230407015" duration="3057000" />
       <workItem from="1570869862723" duration="4632000" />
       <workItem from="1571020492930" duration="3981000" />
-      <workItem from="1571027180227" duration="2206000" />
+      <workItem from="1571027180227" duration="2552000" />
+      <workItem from="1571194707652" duration="2540000" />
+      <workItem from="1571199930067" duration="7430000" />
     </task>
     <servers />
   </component>

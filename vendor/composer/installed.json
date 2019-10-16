@@ -1,0 +1,1394 @@
+[
+    {
+        "name": "nancheng/pfinal-array",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-array.git",
+            "reference": "b38f5e5ace623e9e1f71b47c0ffb72b260fab5b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-array/zipball/b38f5e5ace623e9e1f71b47c0ffb72b260fab5b8",
+            "reference": "b38f5e5ace623e9e1f71b47c0ffb72b260fab5b8",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-02-28T03:19:49+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\arr\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "This is a PHP array manipulation middleware",
+        "homepage": "https://github.com/Neroxiezi/pfinal-array",
+        "keywords": [
+            "Q哥",
+            "array",
+            "pfinal",
+            "php-array",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-cache.git",
+            "reference": "25556bbb4ade5c064fa1d3de52dcfdf1c3d7764f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-cache/zipball/25556bbb4ade5c064fa1d3de52dcfdf1c3d7764f",
+            "reference": "25556bbb4ade5c064fa1d3de52dcfdf1c3d7764f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-array": "dev-master",
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-diropt": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-03-04T07:22:42+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\cache\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "PFinal缓存组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-cache",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "cache",
+            "pfinal",
+            "pfinal-cache",
+            "pfinal社区",
+            "php-cache",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-collection",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-collection.git",
+            "reference": "3fdc3b6b67e17b766284c7c1f0b3861b91fe19c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-collection/zipball/3fdc3b6b67e17b766284c7c1f0b3861b91fe19c2",
+            "reference": "3fdc3b6b67e17b766284c7c1f0b3861b91fe19c2",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require-dev": {
+            "nancheng/pfinal-page": "dev-master",
+            "phpunit/phpunit": "7.2.*"
+        },
+        "time": "2019-10-15T03:35:59+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\collection\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "https://friday-go.cc"
+            }
+        ],
+        "description": "pfinal数据模型组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-model",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "collection",
+            "pfinal",
+            "pfinal-collection",
+            "pfinal社区",
+            "php-collection",
+            "南丞",
+            "集合管理"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-config",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-config.git",
+            "reference": "d3ae328e6d7fa5d48d0a91dbd6ab7e6e62287e2b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-config/zipball/d3ae328e6d7fa5d48d0a91dbd6ab7e6e62287e2b",
+            "reference": "d3ae328e6d7fa5d48d0a91dbd6ab7e6e62287e2b",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-15T02:29:37+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\config\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "pfinal  config网站配置项组件",
+        "homepage": "https://github.com/Neroxiezi/pfinal-config",
+        "keywords": [
+            "Q哥",
+            "config",
+            "pfinal",
+            "pfinal-config",
+            "php-config",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-container",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-container.git",
+            "reference": "3cf6572465ac5ce996eb4640a93a63cbf1e2c8d5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-container/zipball/3cf6572465ac5ce996eb4640a93a63cbf1e2c8d5",
+            "reference": "3cf6572465ac5ce996eb4640a93a63cbf1e2c8d5",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-03-05T07:08:20+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\container\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "pfinal容器管理组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-container",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "container",
+            "pfinal",
+            "pfinal-container",
+            "pfinal社区",
+            "php-container",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-cookie",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-cookie.git",
+            "reference": "940c83f3cb6e1be3e24c645021a5a25ef6483484"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-cookie/zipball/940c83f3cb6e1be3e24c645021a5a25ef6483484",
+            "reference": "940c83f3cb6e1be3e24c645021a5a25ef6483484",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-encryption": "dev-master",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-03-04T05:11:25+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\cookie\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "COOKIE管理组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-cookie",
+        "keywords": [
+            "Q哥",
+            "cookie",
+            "pfinal",
+            "pfinal-cookie",
+            "php-cookie",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-db",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-db.git",
+            "reference": "d3a63eff7031674799606aba8514006b4aefc121"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-db/zipball/d3a63eff7031674799606aba8514006b4aefc121",
+            "reference": "d3a63eff7031674799606aba8514006b4aefc121",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-diropt": "dev-master",
+            "nancheng/pfinal-page": "dev-master",
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "7.2"
+        },
+        "time": "2019-10-15T09:12:51+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\db\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "homepage": "https://github.com/pfinalclub/pfinal-db",
+        "keywords": [
+            "Q哥",
+            "db",
+            "pfinal",
+            "pfinal-db",
+            "php-db",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-diropt",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-diropt.git",
+            "reference": "f2adc2a929dd6a736980e7817acc14967943a4d7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-diropt/zipball/f2adc2a929dd6a736980e7817acc14967943a4d7",
+            "reference": "f2adc2a929dd6a736980e7817acc14967943a4d7",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-03-04T07:19:26+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\diropt\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "homepage": "https://github.com/pfinalclub/pfinal-diropt",
+        "keywords": [
+            "Q哥",
+            "curl",
+            "pfinal",
+            "pfinal-diropt",
+            "php-diropt",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-encryption",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-encryption.git",
+            "reference": "3f7845e285b71b3d2971523f92159025ab5521d1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-encryption/zipball/3f7845e285b71b3d2971523f92159025ab5521d1",
+            "reference": "3f7845e285b71b3d2971523f92159025ab5521d1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-config": "dev-master",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-02-15T10:00:16+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\encryption\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "homepage": "https://github.com/pfinalclub/pfinal-cookie",
+        "keywords": [
+            "Q哥",
+            "cookie",
+            "pfinal",
+            "pfinal-cookie",
+            "php-cookie",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-framework.git",
+            "reference": "2e8f73446843e5ee0614ef2e89fea878ff903a92"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-framework/zipball/2e8f73446843e5ee0614ef2e89fea878ff903a92",
+            "reference": "2e8f73446843e5ee0614ef2e89fea878ff903a92",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-request": "dev-master",
+            "nancheng/pfinal-session": "dev-master"
+        },
+        "time": "2019-10-12T08:46:05+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\framework\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "PFinal Framework (Kernel)",
+        "homepage": "https://github.com/pfinalclub/pfinal-framework",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "framework",
+            "pfinal",
+            "pfinal-framework",
+            "pfinal社区",
+            "php-framework",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-middleware",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-middleware.git",
+            "reference": "5d2b018a258fa92bea5a20bf07ea37e256e3abf6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-middleware/zipball/5d2b018a258fa92bea5a20bf07ea37e256e3abf6",
+            "reference": "5d2b018a258fa92bea5a20bf07ea37e256e3abf6",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-response": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-14T05:56:34+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\middleware\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "https://friday-go.cc"
+            }
+        ],
+        "description": "pfinal中间件组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-middleware",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "middleware",
+            "pfinal",
+            "pfinal-middleware",
+            "pfinal社区",
+            "php-middleware",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-model",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-model.git",
+            "reference": "4be30fd03c36479a6dfff438727c44c735c60a1e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-model/zipball/4be30fd03c36479a6dfff438727c44c735c60a1e",
+            "reference": "4be30fd03c36479a6dfff438727c44c735c60a1e",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-collection": "dev-master",
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-db": "dev-master",
+            "nesbot/carbon": "2.25.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "7.2.*"
+        },
+        "time": "2019-10-16T02:55:07+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\model\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "https://friday-go.cc"
+            }
+        ],
+        "description": "pfinal模型组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-model",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "model",
+            "pfinal",
+            "pfinal-model",
+            "pfinal社区",
+            "php-model",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-page",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-page.git",
+            "reference": "b2b8714fd7742fb6f54c2807544489b581ab97d6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-page/zipball/b2b8714fd7742fb6f54c2807544489b581ab97d6",
+            "reference": "b2b8714fd7742fb6f54c2807544489b581ab97d6",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-request": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-13T07:43:14+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\page\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "Page分页组件可以产生基于当前页面的智能「范围」链接",
+        "homepage": "https://github.com/pfinalclub/pfinal-page",
+        "keywords": [
+            "Q哥",
+            "page",
+            "pfinal",
+            "pfinal-page",
+            "php-page",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-request",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-request.git",
+            "reference": "133f782d0e7560c87cf3e86888c00028c8c4fac5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-request/zipball/133f782d0e7560c87cf3e86888c00028c8c4fac5",
+            "reference": "133f782d0e7560c87cf3e86888c00028c8c4fac5",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-array": "*",
+            "nancheng/pfinal-cookie": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-12T05:06:06+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\request\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "Request组件是用于获取请求数据与对请求终端设备进行判断的组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-request",
+        "keywords": [
+            "Q哥",
+            "pfinal",
+            "pfinal-request",
+            "php-request",
+            "request",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-response",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-response.git",
+            "reference": "02992a1078a6159593b619814adf7d6af47542c0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-response/zipball/02992a1078a6159593b619814adf7d6af47542c0",
+            "reference": "02992a1078a6159593b619814adf7d6af47542c0",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-14T05:21:54+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\response\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "https://friday-go.cc"
+            }
+        ],
+        "description": "pfinal响应组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-response",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "pfinal",
+            "pfinal-response",
+            "pfinal社区",
+            "php-response",
+            "response",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-route",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-route.git",
+            "reference": "87052e09ab731ae5537152e50cc4d45bcefa53c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-route/zipball/87052e09ab731ae5537152e50cc4d45bcefa53c1",
+            "reference": "87052e09ab731ae5537152e50cc4d45bcefa53c1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-cache": "dev-master",
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-container": "dev-master",
+            "nancheng/pfinal-request": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-12T09:32:52+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\route\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "https://friday-go.cc"
+            }
+        ],
+        "description": "pfinal路由组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-route",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "pfinal",
+            "pfinal-route",
+            "pfinal社区",
+            "php-route",
+            "route",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-session",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-session.git",
+            "reference": "45b760f881b09f58f049e5b4dabe9e62faf0e577"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-session/zipball/45b760f881b09f58f049e5b4dabe9e62faf0e577",
+            "reference": "45b760f881b09f58f049e5b4dabe9e62faf0e577",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-config": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-10-12T08:26:10+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\session\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "PFinal Session组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-session",
+        "keywords": [
+            "Q哥",
+            "pfinal",
+            "pfinal-session",
+            "php-session",
+            "session",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nancheng/pfinal-view",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pfinalclub/pfinal-view.git",
+            "reference": "229cf73a1531c4631c93d53d6823d3283a661d4b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pfinalclub/pfinal-view/zipball/229cf73a1531c4631c93d53d6823d3283a661d4b",
+            "reference": "229cf73a1531c4631c93d53d6823d3283a661d4b",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "nancheng/pfinal-cache": "dev-master",
+            "nancheng/pfinal-config": "dev-master",
+            "nancheng/pfinal-request": "dev-master"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.2"
+        },
+        "time": "2019-03-08T01:51:52+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "pf\\view\\": "src/"
+            },
+            "files": [
+                "src/helper.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "南丞",
+                "email": "Lampxiezi@163.com",
+                "homepage": "https://friday-go.cc"
+            }
+        ],
+        "description": "pfinal视图组件",
+        "homepage": "https://github.com/pfinalclub/pfinal-view",
+        "keywords": [
+            "PFinalClub",
+            "Q哥",
+            "pfinal",
+            "pfinal-view",
+            "pfinal社区",
+            "php-view",
+            "view",
+            "南丞"
+        ]
+    },
+    {
+        "name": "nesbot/carbon",
+        "version": "2.25.2",
+        "version_normalized": "2.25.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/briannesbitt/Carbon.git",
+            "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/443fe5f1498147e0fbc792142b5dc43e2e8a533f",
+            "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-json": "*",
+            "php": "^7.1.8 || ^8.0",
+            "symfony/translation": "^3.4 || ^4.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+            "kylekatarnls/multi-tester": "^1.1",
+            "phpmd/phpmd": "dev-php-7.1-compatibility",
+            "phpstan/phpstan": "^0.11",
+            "phpunit/phpunit": "^7.5 || ^8.0",
+            "squizlabs/php_codesniffer": "^3.4"
+        },
+        "time": "2019-10-14T14:18:59+00:00",
+        "bin": [
+            "bin/carbon"
+        ],
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Carbon\\Laravel\\ServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Carbon\\": "src/Carbon/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brian Nesbitt",
+                "email": "brian@nesbot.com",
+                "homepage": "http://nesbot.com"
+            },
+            {
+                "name": "kylekatarnls",
+                "homepage": "http://github.com/kylekatarnls"
+            }
+        ],
+        "description": "An API extension for DateTime that supports 281 different languages.",
+        "homepage": "http://carbon.nesbot.com",
+        "keywords": [
+            "date",
+            "datetime",
+            "time"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "a874bbf9135bd76175baa2c26d14312c9ef25543"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a874bbf9135bd76175baa2c26d14312c9ef25543",
+            "reference": "a874bbf9135bd76175baa2c26d14312c9ef25543",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2019-09-17T10:46:08+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.12-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/translation",
+        "version": "4.4.x-dev",
+        "version_normalized": "4.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/translation.git",
+            "reference": "303707623ca2368ea8c47c3f43daf21879e922a7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/303707623ca2368ea8c47c3f43daf21879e922a7",
+            "reference": "303707623ca2368ea8c47c3f43daf21879e922a7",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^7.1.3",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/translation-contracts": "^1.1.6|^2"
+        },
+        "conflict": {
+            "symfony/config": "<3.4",
+            "symfony/dependency-injection": "<3.4",
+            "symfony/yaml": "<3.4"
+        },
+        "provide": {
+            "symfony/translation-implementation": "1.0"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "^3.4|^4.0|^5.0",
+            "symfony/console": "^3.4|^4.0|^5.0",
+            "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+            "symfony/finder": "~2.8|~3.0|~4.0|^5.0",
+            "symfony/http-kernel": "^3.4|^4.0|^5.0",
+            "symfony/intl": "^3.4|^4.0|^5.0",
+            "symfony/service-contracts": "^1.1.2|^2",
+            "symfony/var-dumper": "^3.4|^4.0|^5.0",
+            "symfony/yaml": "^3.4|^4.0|^5.0"
+        },
+        "suggest": {
+            "psr/log-implementation": "To use logging capability in translator",
+            "symfony/config": "",
+            "symfony/yaml": ""
+        },
+        "time": "2019-10-03T11:24:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Translation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Translation Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/translation-contracts",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/translation-contracts.git",
+            "reference": "364518c132c95642e530d9b2d217acbc2ccac3e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/364518c132c95642e530d9b2d217acbc2ccac3e6",
+            "reference": "364518c132c95642e530d9b2d217acbc2ccac3e6",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^7.1.3"
+        },
+        "suggest": {
+            "symfony/translation-implementation": ""
+        },
+        "time": "2019-09-17T11:12:18+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Contracts\\Translation\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Generic abstractions related to translation",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "abstractions",
+            "contracts",
+            "decoupling",
+            "interfaces",
+            "interoperability",
+            "standards"
+        ]
+    }
+]

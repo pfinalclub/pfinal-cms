@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12bb2e741e88a5bc014afd5f3124aedb",
+    "content-hash": "2be4e08dc711414ab1b2f23571894ff9",
     "packages": [
         {
             "name": "nancheng/pfinal-array",
@@ -123,17 +123,76 @@
             "time": "2019-03-04T07:22:42+00:00"
         },
         {
+            "name": "nancheng/pfinal-collection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfinalclub/pfinal-collection.git",
+                "reference": "3fdc3b6b67e17b766284c7c1f0b3861b91fe19c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-collection/zipball/3fdc3b6b67e17b766284c7c1f0b3861b91fe19c2",
+                "reference": "3fdc3b6b67e17b766284c7c1f0b3861b91fe19c2",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "nancheng/pfinal-page": "dev-master",
+                "phpunit/phpunit": "7.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\collection\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "南丞",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "https://friday-go.cc"
+                }
+            ],
+            "description": "pfinal数据模型组件",
+            "homepage": "https://github.com/pfinalclub/pfinal-model",
+            "keywords": [
+                "PFinalClub",
+                "Q哥",
+                "collection",
+                "pfinal",
+                "pfinal-collection",
+                "pfinal社区",
+                "php-collection",
+                "南丞",
+                "集合管理"
+            ],
+            "time": "2019-10-15T03:35:59+00:00"
+        },
+        {
             "name": "nancheng/pfinal-config",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfinalclub/pfinal-config.git",
-                "reference": "1ff070a98f394553754e28449ab25c6fa7ebc6db"
+                "reference": "d3ae328e6d7fa5d48d0a91dbd6ab7e6e62287e2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfinalclub/pfinal-config/zipball/1ff070a98f394553754e28449ab25c6fa7ebc6db",
-                "reference": "1ff070a98f394553754e28449ab25c6fa7ebc6db",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-config/zipball/d3ae328e6d7fa5d48d0a91dbd6ab7e6e62287e2b",
+                "reference": "d3ae328e6d7fa5d48d0a91dbd6ab7e6e62287e2b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -168,6 +227,7 @@
                     "homepage": "http://friday-go.cc/"
                 }
             ],
+            "description": "pfinal  config网站配置项组件",
             "homepage": "https://github.com/Neroxiezi/pfinal-config",
             "keywords": [
                 "Q哥",
@@ -177,7 +237,7 @@
                 "php-config",
                 "南丞"
             ],
-            "time": "2019-10-14T04:24:35+00:00"
+            "time": "2019-10-15T02:29:37+00:00"
         },
         {
             "name": "nancheng/pfinal-container",
@@ -298,6 +358,66 @@
                 "南丞"
             ],
             "time": "2019-03-04T05:11:25+00:00"
+        },
+        {
+            "name": "nancheng/pfinal-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfinalclub/pfinal-db.git",
+                "reference": "d3a63eff7031674799606aba8514006b4aefc121"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-db/zipball/d3a63eff7031674799606aba8514006b4aefc121",
+                "reference": "d3a63eff7031674799606aba8514006b4aefc121",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "nancheng/pfinal-config": "dev-master",
+                "nancheng/pfinal-diropt": "dev-master",
+                "nancheng/pfinal-page": "dev-master",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\db\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "南丞",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "http://friday-go.cc/"
+                }
+            ],
+            "homepage": "https://github.com/pfinalclub/pfinal-db",
+            "keywords": [
+                "Q哥",
+                "db",
+                "pfinal",
+                "pfinal-db",
+                "php-db",
+                "南丞"
+            ],
+            "time": "2019-10-15T09:12:51+00:00"
         },
         {
             "name": "nancheng/pfinal-diropt",
@@ -476,12 +596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfinalclub/pfinal-middleware.git",
-                "reference": "63ebf5139580612b61513a75b6f12b9869dd6013"
+                "reference": "5d2b018a258fa92bea5a20bf07ea37e256e3abf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfinalclub/pfinal-middleware/zipball/63ebf5139580612b61513a75b6f12b9869dd6013",
-                "reference": "63ebf5139580612b61513a75b6f12b9869dd6013",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-middleware/zipball/5d2b018a258fa92bea5a20bf07ea37e256e3abf6",
+                "reference": "5d2b018a258fa92bea5a20bf07ea37e256e3abf6",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -491,7 +611,8 @@
                 ]
             },
             "require": {
-                "nancheng/pfinal-config": "dev-master"
+                "nancheng/pfinal-config": "dev-master",
+                "nancheng/pfinal-response": "dev-master"
             },
             "require-dev": {
                 "phpunit/phpunit": "6.2"
@@ -528,7 +649,128 @@
                 "php-middleware",
                 "南丞"
             ],
-            "time": "2019-03-08T04:34:11+00:00"
+            "time": "2019-10-14T05:56:34+00:00"
+        },
+        {
+            "name": "nancheng/pfinal-model",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfinalclub/pfinal-model.git",
+                "reference": "4be30fd03c36479a6dfff438727c44c735c60a1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-model/zipball/4be30fd03c36479a6dfff438727c44c735c60a1e",
+                "reference": "4be30fd03c36479a6dfff438727c44c735c60a1e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "nancheng/pfinal-collection": "dev-master",
+                "nancheng/pfinal-config": "dev-master",
+                "nancheng/pfinal-db": "dev-master",
+                "nesbot/carbon": "2.25.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\model\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "南丞",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "https://friday-go.cc"
+                }
+            ],
+            "description": "pfinal模型组件",
+            "homepage": "https://github.com/pfinalclub/pfinal-model",
+            "keywords": [
+                "PFinalClub",
+                "Q哥",
+                "model",
+                "pfinal",
+                "pfinal-model",
+                "pfinal社区",
+                "php-model",
+                "南丞"
+            ],
+            "time": "2019-10-16T02:55:07+00:00"
+        },
+        {
+            "name": "nancheng/pfinal-page",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfinalclub/pfinal-page.git",
+                "reference": "b2b8714fd7742fb6f54c2807544489b581ab97d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-page/zipball/b2b8714fd7742fb6f54c2807544489b581ab97d6",
+                "reference": "b2b8714fd7742fb6f54c2807544489b581ab97d6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "nancheng/pfinal-request": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\page\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "南丞",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "http://friday-go.cc/"
+                }
+            ],
+            "description": "Page分页组件可以产生基于当前页面的智能「范围」链接",
+            "homepage": "https://github.com/pfinalclub/pfinal-page",
+            "keywords": [
+                "Q哥",
+                "page",
+                "pfinal",
+                "pfinal-page",
+                "php-page",
+                "南丞"
+            ],
+            "time": "2019-10-13T07:43:14+00:00"
         },
         {
             "name": "nancheng/pfinal-request",
@@ -595,12 +837,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfinalclub/pfinal-response.git",
-                "reference": "52d297862acd3aead4e6836d429d47c144958ab3"
+                "reference": "02992a1078a6159593b619814adf7d6af47542c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfinalclub/pfinal-response/zipball/52d297862acd3aead4e6836d429d47c144958ab3",
-                "reference": "52d297862acd3aead4e6836d429d47c144958ab3",
+                "url": "https://api.github.com/repos/pfinalclub/pfinal-response/zipball/02992a1078a6159593b619814adf7d6af47542c0",
+                "reference": "02992a1078a6159593b619814adf7d6af47542c0",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -632,6 +874,7 @@
                     "homepage": "https://friday-go.cc"
                 }
             ],
+            "description": "pfinal响应组件",
             "homepage": "https://github.com/pfinalclub/pfinal-response",
             "keywords": [
                 "PFinalClub",
@@ -643,7 +886,7 @@
                 "response",
                 "南丞"
             ],
-            "time": "2019-03-11T04:33:27+00:00"
+            "time": "2019-10-14T05:21:54+00:00"
         },
         {
             "name": "nancheng/pfinal-route",
@@ -827,6 +1070,289 @@
                 "南丞"
             ],
             "time": "2019-03-08T01:51:52+00:00"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "2.25.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/443fe5f1498147e0fbc792142b5dc43e2e8a533f",
+                "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1.8 || ^8.0",
+                "symfony/translation": "^3.4 || ^4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+                "kylekatarnls/multi-tester": "^1.1",
+                "phpmd/phpmd": "dev-php-7.1-compatibility",
+                "phpstan/phpstan": "^0.11",
+                "phpunit/phpunit": "^7.5 || ^8.0",
+                "squizlabs/php_codesniffer": "^3.4"
+            },
+            "bin": [
+                "bin/carbon"
+            ],
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Carbon\\Laravel\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Carbon\\": "src/Carbon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                },
+                {
+                    "name": "kylekatarnls",
+                    "homepage": "http://github.com/kylekatarnls"
+                }
+            ],
+            "description": "An API extension for DateTime that supports 281 different languages.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "time": "2019-10-14T14:18:59+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "a874bbf9135bd76175baa2c26d14312c9ef25543"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a874bbf9135bd76175baa2c26d14312c9ef25543",
+                "reference": "a874bbf9135bd76175baa2c26d14312c9ef25543",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-09-17T10:46:08+00:00"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "4.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "303707623ca2368ea8c47c3f43daf21879e922a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/303707623ca2368ea8c47c3f43daf21879e922a7",
+                "reference": "303707623ca2368ea8c47c3f43daf21879e922a7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/translation-contracts": "^1.1.6|^2"
+            },
+            "conflict": {
+                "symfony/config": "<3.4",
+                "symfony/dependency-injection": "<3.4",
+                "symfony/yaml": "<3.4"
+            },
+            "provide": {
+                "symfony/translation-implementation": "1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^3.4|^4.0|^5.0",
+                "symfony/console": "^3.4|^4.0|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                "symfony/finder": "~2.8|~3.0|~4.0|^5.0",
+                "symfony/http-kernel": "^3.4|^4.0|^5.0",
+                "symfony/intl": "^3.4|^4.0|^5.0",
+                "symfony/service-contracts": "^1.1.2|^2",
+                "symfony/var-dumper": "^3.4|^4.0|^5.0",
+                "symfony/yaml": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "psr/log-implementation": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Translation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-10-03T11:24:03+00:00"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation-contracts.git",
+                "reference": "364518c132c95642e530d9b2d217acbc2ccac3e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/364518c132c95642e530d9b2d217acbc2ccac3e6",
+                "reference": "364518c132c95642e530d9b2d217acbc2ccac3e6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "suggest": {
+                "symfony/translation-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Translation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to translation",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2019-09-17T11:12:18+00:00"
         }
     ],
     "packages-dev": [],
@@ -838,7 +1364,8 @@
         "nancheng/pfinal-route": 20,
         "nancheng/pfinal-response": 20,
         "nancheng/pfinal-middleware": 20,
-        "nancheng/pfinal-container": 20
+        "nancheng/pfinal-container": 20,
+        "nancheng/pfinal-model": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
