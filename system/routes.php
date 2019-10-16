@@ -24,3 +24,4 @@
 		}
 	);
 	Route::get('home', 'app\home\controller\Index@index');
+	Route::get('login', 'app\home\controller\Index@login');

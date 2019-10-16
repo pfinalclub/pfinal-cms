@@ -2,39 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/system/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/home/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/welcome.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_19_6_24_12_18_artisan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pfinal-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pfinal-cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/home/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.user.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf" beforeDir="false" afterPath="$PROJECT_DIR$/pf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/middleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/middleware/Boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/middleware/Boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/model/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/model/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/ModelBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/pf.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/pf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/view/compile/view_home_index_php-fe912.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/view/compile/view_home_index_php-fe912.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/view/compile/view_welcome_php-703a1.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-array" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-array" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-cache" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-config" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-container" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-container" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-cookie" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-cookie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-diropt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-diropt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-encryption" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-encryption" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-framework" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-framework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-middleware" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-middleware" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-request" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-request" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-route" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-route" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-session" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-view" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-view" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/welcome.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +203,7 @@
       <workItem from="1571020492930" duration="3981000" />
       <workItem from="1571027180227" duration="2552000" />
       <workItem from="1571194707652" duration="2540000" />
-      <workItem from="1571199930067" duration="7430000" />
+      <workItem from="1571199930067" duration="11541000" />
     </task>
     <servers />
   </component>

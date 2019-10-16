@@ -35,4 +35,9 @@
 			
 			return $keywords ?? [];
 		}
+		
+		public function login()
+		{
+			return view('view/home/login');
+		}
 	}
