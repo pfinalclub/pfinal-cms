@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fc69a9-d793-443f-9e28-dfd93f14881c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/home/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/view/compile/view_home_index_php-fe912.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/view/compile/view_home_index_php-fe912.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/view/compile/view_welcome_php-703a1.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-array" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-array" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-cache" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-cache" afterDir="false" />
@@ -21,8 +17,6 @@
       <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-route" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-route" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-session" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/nancheng/pfinal-view" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nancheng/pfinal-view" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/welcome.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +197,7 @@
       <workItem from="1571020492930" duration="3981000" />
       <workItem from="1571027180227" duration="2552000" />
       <workItem from="1571194707652" duration="2540000" />
-      <workItem from="1571199930067" duration="11541000" />
+      <workItem from="1571199930067" duration="13084000" />
     </task>
     <servers />
   </component>

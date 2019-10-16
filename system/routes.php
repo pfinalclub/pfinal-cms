@@ -25,3 +25,21 @@
 	);
 	Route::get('home', 'app\home\controller\Index@index');
 	Route::get('login', 'app\home\controller\Index@login');
+	
+	Route::group(
+		['prefix' => 'admin'],
+		function () {
+			Route::get(
+				'add',
+				function () {
+					echo 'add';
+				}
+			);
+			Route::get(
+				'delete',
+				function () {
+					echo '123';
+				}
+			);
+		}
+	);
